@@ -4,9 +4,81 @@
     font-family: 'Nunito', sans-serif;
 }
 
+ol,ul
+{
+    list-style: none;
+    padding: 0;
+}
+details,summary,button
+{
+    cursor: pointer;
+    outline: none;
+}
+
 a
 {
     text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar
+{
+    border-bottom: 2px solid black;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 9em 1fr min-content;
+    align-items: center;
+    font-size: 18px;
+}
+.nav
+{
+    display: flex;
+    justify-self: start;
+    border: 1.5px solid black;
+    width: fit-content;
+}
+.nav li
+{
+    padding: 0 1em;
+}
+.foto-perfil
+{
+    background: red;
+    border-radius: 50%;
+    grid-row: 1/3;
+}
+.menu-login
+{
+    display: grid;
+    grid-template-columns: 3em 10em;
+    grid-template-rows: repeat(2,auto);
+    height: 3em;
+    position: relative;
+}
+.ml
+{
+    /* border: 1px solid red; */
+}
+.t-usu
+{
+    font-weight: 600;
+}
+.herramientas
+{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+}
+.herramientas button
+{
+    position: absolute;
+    width: 100%;
+    background: white;
+}
+.b-salir
+{
+    bottom: -3.55em;
 }
 
 .container
