@@ -132,6 +132,57 @@ a
     width: 3em;
 }
 
+/* Registro */
+
+
+
+/* fin registro */
+
+/* Iniciar sesion */
+.container-sesion
+{
+    display: grid;
+    grid-template-columns: min-content 1fr ;
+    grid-template-rows: 80vh;
+    width: 80vw;
+    height: 100vh;
+    margin:0 auto;
+    align-content: center;
+}
+
+.i-s 
+{
+    border: 1px solid red;
+}
+
+.img-inicio
+{
+    max-height: 80vh;
+    height: 100%;
+}
+
+.f-i
+{
+    padding: 1em;
+    font-size: 22px;
+    
+}
+
+.f-i label
+{
+    display: block;
+    margin: 1em 0;
+}
+
+.i-usuario,.i-contra
+{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+/* fin de incio de sesion */
+
+
 @media screen and (max-width:425px)
 {
 /*     Index */
