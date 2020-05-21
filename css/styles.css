@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container
+{
+    display: grid;
+    grid-template: "header header header" min-content
+                    "hero hero hero" 1fr
+                    "footer footer ." 1fr
+                    /1fr 1fr 7em;
+    height: 100vh;
+}
+
+.item
+{
+    /* border: 1px solid red; */
+}
+
+/* header  */
+
+.header
+{
+    grid-area: header;
+    display: flex;
+    padding: 1em 3em 1em 1em;
+    justify-content: space-between;
+}
+
+#logo
+{
+    width: 1.5em;
+}
+.logo-pic
+{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+/* boton header */
+#b-iniciar
+{
+    border: 2px solid black;
+    border-radius: 1em;
+    background: transparent;
+    width: 10em;
+    padding: .5em;  
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+}
+
+/* hero */
+.hero
+{
+    grid-area: hero;
+    padding: 3em;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 50em 1fr;
+    grid-template-rows: min-content;
+    align-items: center;
+}
+
+.u-title
+{
+    color: #3f9896;
+/*     color: #244c4b; */
+    font-size: 5em;
+}
+.u-presentacion
+{
+    color: #3d2f48;
+    font-size: 2em;
+    text-align: justify;
+}
+
+#b-registrar
+{
+    background-color: #3f9896;
+    border: 2px solid #244c4b;
+    color: #55d4d2;
+    padding: 0 .8em ;
+    font-size: 1.5em;
+    font-weight: 900;
+    cursor: pointer;
+    outline: none;
+}
+.img-hero img
+{
+    width: 100%;
+}
+
+/* footer */
+.footer
+{
+    grid-area: footer;
+    /* position: relative; */
+    justify-self: end;
+    padding: 1em;
+    padding-left: 5em;
+    justify-items: flex-start;
+}
+
+.icon 
+{
+    width: 3em;
+}
