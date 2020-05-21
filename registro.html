@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+<div class="container-sesion">
+<section class="f-registro">
+        <header class="header">
+            <picture class="logo-pic">
+                <img src="./img/icons/logo.svg" id="logo" alt="logo_quimica_facil">
+                <p>QFacil</p>
+            </picture>
+        </header>
+    <section class="f-r">
+        <h2 class="t-r">
+            Ingrese tus datos
+        </h2>
+        <picture class="f-perfil">
+            <input type="file" name="" id="">
+        </picture>
+        <div class="sec-una">
+            <label>
+                Usuario
+                <input type="text" name="" id="" class="ri-usuario">
+            </label>
+            <label>
+            </label>
+            Nombres
+            <input type="text" name="" id="" class="ri-nombres">
+            <label>
+                Apellidos
+                <input type="text" name="" id="" class="ri-apellidos">
+            </label>
+        </div>
+        <div class="sec-tipo">
+            <h3 class="tipo">
+                Tipo de usuario:
+            </h3>
+            <label>
+                <input type="radio" name="tipo-u" id="r-a" value="alumno">
+                Alumno
+            </label>
+            <label>
+                <input type="radio" name="tipo-u" id="r-e" value="estudiante">
+                Profesor
+            </label>
+            <label>
+                <input type="radio" name="tipo-u" id="r-auto" value="auto-didacta">
+                Auto-didacta
+            </label>
+        </div>
+        <div class="sec-abajo">
+            <label>
+                Edad
+                <input type="text" name="" id="" class="r-edad">
+            </label>
+            <label>
+                Genero
+                <select label="Genero">
+                    <optgroup label="Genero">
+                        <option value="h">
+                            hombre
+                        </option>
+                        <option value="m">
+                            mujer
+                        </option>
+                        <option value="o">
+                            otro
+                        </option>
+                    </optgroup>
+                </select>
+            </label>
+            <label>
+                Correo
+                <input type="email" name="correo" id="correo" class="r-correo">
+            </label>
+            <label>
+                Contraseña
+                <input type="password" name="contra" id="contra" class="r-contra">
+            </label>
+        </div>
+        <button type="submit" class="b-registar">
+            Registrar
+        </button>
+    </section>
+</section>
+    <section class="banner-registro">
+        <picture class="registro">
+            <img src="./img/registro.jpg" alt="cientificos" class="registro">
+        </picture>
+    </section>
+</div>
+</body>
+</html>
