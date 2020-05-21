@@ -4,14 +4,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 .container
 {
     display: grid;
     grid-template: "header header header" min-content
                     "hero hero hero" 1fr
-                    "footer footer ." 1fr
+                    "footer footer ." min-content
                     /1fr 1fr 7em;
     height: 100vh;
+    align-content: end;
 }
 
 .item
@@ -60,12 +66,14 @@
 .hero
 {
     grid-area: hero;
-    padding: 3em;
+    padding-left: 3em;
     padding-bottom: 0;
     display: grid;
-    grid-template-columns: 50em 1fr;
+    grid-template-columns: minmax(20em,50em) minmax(20em,70em);
     grid-template-rows: min-content;
     align-items: center;
+    justify-items: center;
+    align-content: center;
 }
 
 .u-title
@@ -84,13 +92,16 @@
 #b-registrar
 {
     background-color: #3f9896;
-    border: 2px solid #244c4b;
+    border: none;
+    border-radius: .5em;
+    border-bottom: 5px solid #244c4b;
     color: #55d4d2;
-    padding: 0 .8em ;
+    padding: .2em .8em ;
     font-size: 1.5em;
     font-weight: 900;
     cursor: pointer;
     outline: none;
+    margin-top: 1em;
 }
 .img-hero img
 {
@@ -103,12 +114,87 @@
     grid-area: footer;
     /* position: relative; */
     justify-self: end;
-    padding: 1em;
+    padding-bottom: 1em;
     padding-left: 5em;
+    grid-gap: .5em;
     justify-items: flex-start;
+    
+}
+.redes-sociales
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: .5em;
 }
 
 .icon 
 {
     width: 3em;
+}
+
+@media screen and (max-width:425px)
+{
+/*     Index */
+    .container
+    {
+        height: initial;
+    }
+
+    .header
+    {
+        font-size: 10px;
+        padding: 1em;
+    }
+    .logo-pic
+    {
+        width: 100%;
+    }
+    
+    .hero 
+    {
+        font-size: 8px;
+        grid-template-columns: auto;
+        padding: 0;
+        padding-top: 1em;
+    }
+    .presentacion
+    {
+        margin: 0 3em;
+    }
+    .presentacion a
+    {
+        justify-items: center;
+    }
+
+    .footer
+    {
+        padding: 0;
+        justify-self: center;
+    }
+    .icon
+    {
+        font-size: 10px;
+    }
+    .container
+    {
+        grid-template-areas: "header header header"
+                    "hero hero hero"
+                    "footer footer footer";
+    }
+/*     fin index */
+}
+
+@media screen and (min-width: 768px)
+{
+    .presentacion
+    {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 1440px)
+{
+    .presentacion
+    {
+        font-size: initial;
+    }
 }
