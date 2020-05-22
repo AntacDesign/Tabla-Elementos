@@ -4,6 +4,11 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.no-mostrar
+{
+    display: none;
+}
+
 ol,ul
 {
     list-style: none;
@@ -203,6 +208,98 @@ a
 {
     width: 3em;
 }
+
+/* inicio juegos */
+/* container */
+.elegir-game
+{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5em;
+    height: 80vh;
+}
+
+.i-eg
+{
+    border: 1.5px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+/* juego1 */
+.juego1
+{
+    border: .1em solid rgb(98, 98, 98) ;
+    border-bottom: .5em solid rgb(98, 98, 98);
+}
+
+.juego1:hover
+{
+    border: .1em solid rgb(98, 98, 98) ;
+}
+/* boton */
+.b-game1
+{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    filter: grayscale();
+}
+.b-game1:hover
+{
+    transform: scale(1.01);
+    filter: grayscale(0);
+}
+/* imagen del juego1 */
+.img-bg1
+{
+    width: 100%;
+    border-radius: 1em;
+    /* box-shadow: 0px 0px 1px grey; */
+}
+/* fin juego1 */
+/* juego2 */
+.juego2
+{
+    border: .1em solid rgb(98, 98, 98) ;
+    border-bottom: .5em solid rgb(98, 98, 98);
+}
+
+.juego2:hover
+{
+    border: .1em solid rgb(98, 98, 98) ;
+}
+/* boton */
+.b-game2
+{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    filter: grayscale();
+}
+.b-game2:hover
+{
+    transform: scale(1.01);
+    filter: grayscale(0);
+}
+/* imagen del juego2 */
+.img-bg2
+{
+    width: 100%;
+    border-radius: 1em;
+    /* box-shadow: 0px 0px 1px grey; */
+}
+/* fin juego2 */
+
+
+
+
+
+
 
 @media screen and (max-width:425px)
 {
