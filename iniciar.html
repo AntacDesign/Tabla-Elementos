@@ -16,7 +16,7 @@
             </picture>
     </section>
     <section class="f-iniciar i-s">
-        <header class="header">
+        <header class="header-baner">
             <picture class="logo-pic">
                 <img src="./img/icons/logo.svg" id="logo" alt="logo_quimica_facil">
                 <p>QFacil</p>
@@ -26,17 +26,23 @@
             <h2 class="t-i">
                 Bienvenido de nuevo
             </h2>
-            <label>
-                Usuario
-                <input type="email" name="usuario" id="usuario" class="i-usuario">
-            </label>
-            <label>
-                Contraseña
-                <input type="password" name="contra" id="contra" class="i-contra">
-            </label>
-            <button type="submit" class="b-iniciar">
-                Ingresar
-            </button>
+            <form action="" method="post">
+                <label>
+                    <p>
+                        Usuario
+                    </p> 
+                    <input type="text" name="usuario" id="usuario" class="i-usuario" required>
+                </label>
+                <label>
+                    <p>
+                        Contraseña
+                    </p>
+                    <input type="password" name="contra" id="contra" class="i-contra" required>
+                </label>
+                <button type="submit" class="b-iniciar">
+                    Ingresar
+                </button>
+            </form>
         </section>
     </section>
     </div>

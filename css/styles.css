@@ -142,7 +142,7 @@ a
 .container-sesion
 {
     display: grid;
-    grid-template-columns: min-content 1fr ;
+    grid-template-columns: min-content minmax(700px,auto);
     grid-template-rows: 80vh;
     width: 80vw;
     height: 100vh;
@@ -152,34 +152,77 @@ a
 
 .i-s 
 {
-    border: 1px solid red;
+    border: 1px solid #313c7a;
+    /* border: 1px solid red; */
 }
 
+/* imagen banner inicio */
 .img-inicio
 {
     max-height: 80vh;
     height: 100%;
 }
 
-.f-i
+/* formularios banner inicio */
+.f-iniciar
+{
+    display: grid;
+}
+.header-baner
 {
     padding: 1em;
-    font-size: 22px;
-    
+    position: absolute;
 }
 
+.f-i
+{
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    justify-items: center;
+}
+
+.f-i form
+{
+    width: 80%;
+}
 .f-i label
 {
     display: block;
     margin: 1em 0;
 }
+.f-i label p
+{
+    font-weight: 500;
+}
 
 .i-usuario,.i-contra
 {
     display: block;
+    width: 100%;
+    border: 1.5px solid rgb(47, 44, 44);
+    outline: none;
+    padding: .2em;
+}
+
+.b-iniciar
+{
     margin: 0 auto;
     width: 50%;
+    display: block;
+    font-size: .8em;
+    font-weight: 400;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    background: #18dedd75;
+    color: #313c7a;
 }
+
 /* fin de incio de sesion */
 
 
