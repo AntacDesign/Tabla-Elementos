@@ -132,9 +132,158 @@ a
     width: 3em;
 }
 
+/* header de resgistro y inicio */
+.header-baner
+{
+    padding: 1em;
+    position: absolute;
+}
+
 /* Registro */
+.container-registro
+{
+    display: grid;
+    grid-template-columns: minmax(700px,auto)min-content ;
+    grid-template-rows: 80vh;
+    width: 80vw;
+    height: 100vh;
+    margin:0 auto;
+    align-content: center;
+}
+.i-re 
+{
+    border: 1.5px solid #476871;
+}
+.img-registro
+{
+    max-height: 80vh;
+    height: 100%;
+}
 
+.f-registro
+{
+    display: grid;
+}
 
+.f-r
+{
+    display: grid;
+    grid-template:"t-re t-re" min-content
+                  "sfoto-re i-re " min-content
+                  "tipo-re tipo-re" min-content
+                  "edad-re  genero-re" min-content
+                  "cocon-re  cocon-re" min-content
+                  "b-re b-re" min-content
+                  /1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    justify-items: center;
+    height: 100%;
+    grid-gap: .5em;
+}
+.t-r 
+{
+    grid-area: t-re;
+}
+.sec-fperfil 
+{
+    grid-area: sfoto-re;
+    position: relative;
+}
+
+.sec-fperfil div
+{
+    left: 0;
+    top: 2em;
+    height: 133px;
+    width: 133px;
+    display: flex;
+    background: #91d1b888;
+    position: absolute;
+}
+
+.sec-fperfil input
+{
+    align-self: flex-end;
+    width: 10em;
+}
+
+.sec-una 
+{
+    grid-area: i-re;
+    justify-self: baseline;
+    /* border: 1px solid red; */
+    width: 7.6em;
+}
+.sec-una label
+{
+    display: block;
+}
+.sec-una input
+{
+    width: 99%;
+}
+
+.sec-tipo
+{
+    grid-area: tipo-re;
+}
+.sec-edad
+{
+    grid-area: edad-re;
+    justify-self: end;
+}
+.sec-edad input
+{
+    /* width: 5em; */
+    margin-right: 2.6em;
+}
+.sec-genero 
+{
+    grid-area: genero-re;
+    justify-self: baseline;
+    width: 7.7em;
+    /* border: 1px solid red; */
+}
+.sec-genero select
+{
+    width: 100%;
+}
+
+.sec-genero select
+{
+    font: inherit;
+    font-size: 16px;
+    outline: none;
+}
+.sec-cocon
+{
+    grid-area: cocon-re;
+    width: 16em;
+}
+
+.sec-cocon input
+{
+    width: 99%;
+}
+
+.b-registar
+{
+    justify-self: center;
+    grid-area: b-re;
+    font: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    background: #476871;
+    color: #91d1b7;
+    width: 25%;
+    border: none;
+    border-radius: 1em;
+    padding: .6em;
+    cursor: pointer;
+    outline: none;
+}
 
 /* fin registro */
 
@@ -168,11 +317,7 @@ a
 {
     display: grid;
 }
-.header-baner
-{
-    padding: 1em;
-    position: absolute;
-}
+
 
 .f-i
 {
