@@ -746,6 +746,7 @@
 [0521/165758.139:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/165758.139:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/165758.140:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0521/171258.140:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/171258.140:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/171258.140:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -790,3 +791,27 @@
 [0521/171349.499:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/171349.499:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/171349.499:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+[0522/164910.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+>>>>>>> juegos

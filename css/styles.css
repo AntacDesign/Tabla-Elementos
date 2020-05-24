@@ -4,6 +4,11 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.no-mostrar
+{
+    display: none !important;
+}
+
 ol,ul
 {
     list-style: none;
