@@ -658,6 +658,7 @@
 [0521/161258.129:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/161258.129:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/161258.129:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0521/162758.131:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/162758.131:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0521/162758.131:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -815,3 +816,27 @@
 [0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0522/164910.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
 >>>>>>> juegos
+=======
+[0522/133342.564:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.564:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.565:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.566:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.566:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.566:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0522/133342.566:ERROR:crash_report_database_win.cc(469)] failed to stat report
+>>>>>>> perfil

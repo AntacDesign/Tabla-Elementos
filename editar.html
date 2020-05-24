@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/icons/logo.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/editar.css">
     <title>Editar perfil</title>
 </head>
 <body>
@@ -50,16 +51,102 @@
                     <p class="puntos ml">100</p>
                     <details class="herramientas ml">
                         <summary>Herramientas</summary>
-                            <button class="b-editar">
-                                Editar perfil
-                            </button>
-                            <button class="b-salir">
-                                Salir
-                            </button>
+                                <button class="b-editar">
+                                    Editar perfil
+                                </button>
+                            <a href="index.html">
+                                <button class="b-salir">
+                                    Salir
+                                </button>
+                            </a>
                     </detail>
                 </div>
             </div>
         </header>
+        <section class="f-editar">
+            <form action="" method="post" class="e-form">
+                <div class="i-fedit">
+                    <picture class="f-perfil">
+                        <input type="file" name="" id="">
+                    </picture>
+                </div>
+                <fieldset class="edit-datos">
+                    <legend>
+                        <h2 class="t-datos">Tus datos</h2>
+                    </legend>
+                <div class="i-fdatos">
+                    <label class="esec-nom">
+                        <p>
+                            Nombre
+                        </p>
+                        <input type="text" name="nombre" id="nombre" class="nombre" required>
+                    </label>
+                    <label class="esec-ape">
+                        <p>
+                            Apellidos
+                        </p>
+                        <input type="text" name="apellidos" id="apellidos" class="apellidos" required>
+                    </label>
+                    <label class="esec-usu">
+                        <p>
+                            Usuario
+                        </p>
+                        <input type="text" name="usuario" id="usuario" class="usuario" required>
+                    </label>
+                    <label class="esec-correo">
+                        <p>
+                            Correo
+                        </p>
+                        <input type="email" name="correo" id="correo" class="correo" required>
+                    </label>
+                    <label class="esec-gene">
+                        <p>
+                            Genero
+                        </p>
+                        <select name="" id="" class="edit-gene">
+                            <optgroup label="Genero">
+                                <option value="h" id="hombre">Hombre</option>
+                                <option value="m" id="mujer">Mujer</option>
+                                <option value="o" id="otro">Otro</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label class="esec-edad">
+                        <p>
+                            Edad
+                        </p>
+                        <input type="number" name="edad" id="edad" class="edad" required>
+                    </label>
+                    <label class="esec-tipo">
+                        <p>
+                            Tipo de Usuario
+                        </p>
+                        <label>
+                            <input type="radio" name="tipo" id="alumno" value="alumno">
+                            Alumno
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo" id="profesor" value="profesor">
+                            Profesor
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo" id="auto-didacta" value="auto-didacta">
+                            Auto-didacta
+                        </label>
+                    </label>
+                    <label class="esec-contra">
+                        <p>
+                            Contraseña
+                        </p>
+                        <input type="password" name="contra" id="contra" class="b-econtra" required>
+                    </label>
+                <button class="b-edit" type="submit">
+                    Guardar Cambios
+                </button>
+                </div>
+                </fieldset>
+            </form>
+        </section>
     </div>
 </body>
 </html>
