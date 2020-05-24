@@ -1,0 +1,242 @@
+/* inicio juegos */
+.container-juegos
+{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+}
+/* container */
+.elegir-game
+{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5em;
+    height: 80vh;
+}
+
+.i-eg
+{
+    border: 1.5px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+/* juego1 */
+.select-juego1
+{
+    border: .1em solid rgb(98, 98, 98) ;
+    border-bottom: .5em solid rgb(98, 98, 98);
+}
+
+.select-juego1:hover
+{
+    border: .1em solid rgb(98, 98, 98) ;
+}
+/* boton */
+.b-game1
+{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    filter: grayscale();
+}
+.b-game1:hover
+{
+    transform: scale(1.01);
+    filter: grayscale(0);
+}
+/* imagen del juego1 */
+.img-bg1
+{
+    width: 100%;
+    border-radius: 1em;
+    /* box-shadow: 0px 0px 1px grey; */
+}
+/* juego1 vista */
+.juego1
+{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 70%;
+    grid-template-rows: min-content min-content 10em 5em;
+    height: 80%;
+    width: 70%;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: 1em;
+    grid-gap: 1em;
+    font-size: 30px;
+}
+
+.i-j1
+{
+    /* border: 1px solid red; */
+}
+
+/* Datos juego1 */
+.datos-juego1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* elemento del juego1 */
+.elemento-juego1
+{
+    width: 6em;
+    height: 6em;
+    background: whitesmoke;
+    border: 1px solid grey;
+    position: relative;
+    padding: .5em;
+    text-align: center;
+    display: flex;
+}
+.nato-j1
+{
+    position: absolute;
+    top: .5em;
+    left: .5em;
+}
+.simb-j1
+{
+    align-self: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-size: 4em;
+    font-weight: 400;
+}
+.tele-j1
+{
+    position: absolute;
+    bottom: .5em;
+    right: 0;
+    left: 0;
+}
+.op1-j1,.op2-j1,.op3-j1
+{
+    font: inherit;
+    font-size: .7em;
+    border-radius: 1em;
+    border: none;
+    padding: .5em;
+}
+
+/* fin juego1 */
+/* juego2 */
+
+.select-juego2 
+{
+    border: .1em solid rgb(98, 98, 98) ;
+    border-bottom: .5em solid rgb(98, 98, 98);
+}
+
+.select-juego2:hover
+{
+    border: .1em solid rgb(98, 98, 98) ;
+}
+/* boton */
+.b-game2
+{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    filter: grayscale();
+}
+.b-game2:hover
+{
+    transform: scale(1.01);
+    filter: grayscale(0);
+}
+/* imagen del juego2 */
+.img-bg2
+{
+    width: 100%;
+    border-radius: 1em;
+    /* box-shadow: 0px 0px 1px grey; */
+}
+/* juego2 vista */
+.juego2
+{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 70%;
+    grid-template-rows: min-content min-content 10em 5em;
+    height: 80%;
+    width: 70%;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: 1em;
+    grid-gap: 1em;
+    font-size: 30px;
+}
+
+.i-j2
+{
+    /* border: 1px solid red; */
+}
+
+/* Datos juego2 */
+.datos-juego2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* elemento del juego2 */
+.elemento-juego2
+{
+    width: 6em;
+    height: 6em;
+    background: whitesmoke;
+    border: 1px solid grey;
+    position: relative;
+    padding: .5em;
+    text-align: center;
+    display: flex;
+}
+.nato-j2
+{
+    position: absolute;
+    top: .5em;
+    left: .5em;
+}
+.simb-j2
+{
+    align-self: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-size: 4em;
+    font-weight: 400;
+}
+.tele-j2
+{
+    position: absolute;
+    bottom: .5em;
+    right: 0;
+    left: 0;
+}
+.op1-j2,.op2-j2,.op3-j2
+{
+    font: inherit;
+    font-size: .7em;
+    border-radius: 1em;
+    border: none;
+    padding: .5em;
+}
+
+/* fin juego2 */
