@@ -90,6 +90,7 @@ a
                     /1fr 1fr 7em;
     height: 100vh;
     align-content: end;
+    overflow: auto;
 }
 
 .item
