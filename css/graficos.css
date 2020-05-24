@@ -1,0 +1,85 @@
+/* container general */
+.container-graficos
+{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+/* container seccion grafico */
+.grafico
+{
+    display: grid;
+    grid-template-rows: minmax(200px,20%) 1fr;
+    justify-self: center;
+    border: 1.5px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    min-width: 500px;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+}
+
+/* container seccion puestos */
+.puestos
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 100%;
+    justify-self: center;
+    align-items: flex-end;
+    grid-gap: 2em;
+    padding: 1em;
+}
+.i-puesto
+{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end ;
+    padding: .5em;
+    position: relative;
+    font-weight: 700;
+}
+
+.puesto-1
+{
+    height: 100px;
+    background: rgba(94, 255, 0, 0.698);
+    border: none;
+}
+.puesto-2
+{
+    height: 80px;
+    background: rgba(0, 132, 255, 0.746);
+    border: none;
+}
+.puesto-3
+{
+    height: 50px;
+    background: rgba(255, 0, 0, 0.657);
+    border: none;
+}
+
+.img-usu
+{
+    width: 50%;
+    position: absolute;
+    bottom: 1em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.lista-usu
+{
+    border-top: 1px solid black ;
+}
+.list
+{
+    border-bottom: 1px solid black ;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
