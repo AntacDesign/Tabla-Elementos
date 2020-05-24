@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/icons/logo.svg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/amigos.css">
     <title>Amigos</title>
 </head>
+
 <body>
     <div class="container-amigos">
         <header class="nav-bar">
@@ -17,7 +22,7 @@
                     <p>QFacil</p>
                 </picture>
             </div>
-            <nav >
+            <nav>
                 <ol class="nav">
                     <li>
                         <a href="">
@@ -50,75 +55,125 @@
                     <p class="puntos ml">100</p>
                     <details class="herramientas ml">
                         <summary>Herramientas</summary>
-                            <button class="b-editar">
-                                Editar perfil
-                            </button>
-                            <button class="b-salir">
-                                Salir
-                            </button>
-                    </detail>
+                        <button class="b-editar">
+                            Editar perfil
+                        </button>
+                        <button class="b-salir">
+                            Salir
+                        </button>
+                        </detail>
                 </div>
             </div>
         </header>
         <section class="amigos">
-            <h2>Amigos</h2>
-            <div class="ingresar-usu">
-                <input type="text" placeholder="Ingresar nombre usuario">
-                <button class="eliminar-amigo">
-                    Eliminar
-                </button>
-            </div>
-            <div class="lista-usu">
-                <ol>
-                    <li>
-                        Usuario123 <span>100pt</span>
-                    </li>
-                    <li>
-                        Usuario123 <span>100pt</span>
-                    </li>
-                    <li>
-                        Usuario123 <span>100pt</span>
-                    </li>
-                    <li>
-                        Usuario123 <span>100pt</span>
-                    </li>
-                    <li>
-                        Usuario123 <span>100pt</span>
-                    </li>
-                </ol>
-            </div>
-        </section>
-        <section class="agre-amigos">
-            <h2>Agregar amigos</h2>
-            <div class="ingresar-usu">
-                <input type="text" placeholder="Ingresar nombre usuario">
-                <button class="burcar-amigo">
-                    buscar
-                </button>
-            </div>
-            <div class="lista-usu">
-                <ol>
-                    <li>
-                        Usuario123 
-                        <span><button>
-                            +
-                        </button></span>
-                    </li>
-                    <li>
-                        Usuario123 
-                        <span><button>
-                            +
-                        </button></span>
-                    </li>
-                    <li>
-                        Usuario123 
-                        <span><button>
-                            +
-                        </button></span>
-                    </li>
-                </ol>
-            </div>
+            <section class="sec-amigos">
+                <h2>Amigos</h2>
+                <div class="ingresar-usu">
+                    <input type="text" placeholder="Ingresar nombre usuario" class="txt-buscarAmigo" id="txt-buscarAmigo">
+                    <button class="buscar-amigo" id="btn-buscarAmigo">
+                        Buscar
+                    </button>
+                </div>
+                <div class="list-amigos">
+                    <ol class="list">
+                        <li class="l-amigo">
+                            Usuario123 
+                            <span>
+                                100pt
+                            </span>
+                            <span>
+                                <button class="btn-eliminarAmigo">
+                                    -
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-amigo">
+                            Usuario123 
+                            <span>
+                                100pt
+                            </span>
+                            <span>
+                                <button class="btn-eliminarAmigo">
+                                    -
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-amigo">
+                            Usuario123 
+                            <span>
+                                100pt
+                            </span>
+                            <span>
+                                <button class="btn-eliminarAmigo">
+                                    -
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-amigo">
+                            Usuario123 
+                            <span>
+                                100pt
+                            </span>
+                            <span>
+                                <button class="btn-eliminarAmigo">
+                                    -
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-amigo">
+                            Usuario123 
+                            <span>
+                                100pt
+                            </span>
+                            <span>
+                                <button class="btn-eliminarAmigo">
+                                    -
+                                </button>
+                            </span>
+                        </li>
+                        
+                    </ol>
+                </div>
+            </section>
+            <section class="agre-amigos">
+                <h2>Agregar amigos</h2>
+                <div class="ingresar-usu">
+                    <input type="text" placeholder="Ingresar nombre usuario" class="txt-burcarUsu" id="txt-burcarUsu">
+                    <button class="buscar-usu">
+                        Buscar
+                    </button>
+                </div>
+                <div class="list-usu">
+                    <ol class="list">
+                        <li class="l-usu">
+                            Usuario123
+                            <span>
+                                <button class="btn-agregarUsu" id="btn-agregarUsu">
+                                    +
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-usu">
+                            Usuario123
+                            <span>
+                                <button class="btn-agregarUsu" id="btn-agregarUsu">
+                                    +
+                                </button>
+                            </span>
+                        </li>
+                        <li class="l-usu">
+                            Usuario123
+                            <span>
+                                <button class="btn-agregarUsu" id="btn-agregarUsu">
+                                    +
+                                </button>
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+            </section>
         </section>
     </div>
 </body>
+
 </html>

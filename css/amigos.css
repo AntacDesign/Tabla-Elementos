@@ -1,0 +1,145 @@
+.no-mostrar
+{
+    display: none !important;
+}
+
+/* Conteiner general */
+.container-amigos
+{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+    font-size: 20px;
+}
+
+.amigos
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-end;
+    align-items: flex-end ;
+    height: 100%;
+}
+
+/* container seccion amigos */
+.sec-amigos
+{
+    display: grid;
+    border: 1.5px solid black;
+    grid-template-rows: min-content min-content 1fr;
+    grid-gap: .5em;
+    padding: 1em;
+    min-width: 250px;
+    width: 50%;
+    height: 85%;
+}
+/* formulario  */
+.ingresar-usu
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between ;
+}
+.txt-buscarAmigo
+{
+    padding: .5em;
+    width: 65%;
+    outline: none;
+    border: 1px solid black;
+}
+/* boton */
+.buscar-amigo
+{
+    border: none;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: .5em;
+    background-color: rgb(167, 255, 79);
+}
+
+/* lista de amigos */
+.list-amigos
+{
+    border: 1px solid black;
+    padding: .5em;
+}
+.l-amigo
+{
+    display: flex;
+    justify-content: space-between;
+}
+/* boton eliminar amigo */
+.btn-eliminarAmigo
+{
+    border: none;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: .5em;
+    background-color: rgba(255, 0, 0, 0.657);
+}
+/* fin container seccion amigos */
+
+/* Container seccion agregar amigos */
+.agre-amigos
+{
+    display: grid;
+    border: 1.5px solid black;
+    border-left: none;
+    grid-template-rows: min-content min-content 1fr;
+    justify-self: first baseline;
+    grid-gap: .5em;
+    padding: 1em;
+    min-width: 250px;
+    width: 50%;
+    height: 85%;
+}
+/* formulario  */
+.ingresar-usu
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between ;
+}
+.txt-burcarUsu
+{
+    padding: .5em;
+    width: 65%;
+    outline: none;
+    border: 1px solid black;
+}
+/* boton */
+.buscar-usu
+{
+    border: none;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: .5em;
+    background-color: rgb(167, 255, 79);
+}
+
+/* lista de amigos */
+.list-usu
+{
+    border: 1px solid black;
+    padding: .5em;
+}
+.l-usu
+{
+    display: flex;
+    justify-content: space-between;
+}
+/* boton eliminar amigo */
+.btn-agregarUsu
+{
+    border: none;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: .5em;
+    background-color: rgba(94, 255, 0, 0.657);
+}
