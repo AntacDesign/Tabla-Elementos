@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,113 +8,116 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/iniciar.css">
     <title>Registro</title>
 </head>
+
 <body>
-<div class="container-registro">
-<section class="f-registro i-re">
-    <header class="header-baner">
-            <picture class="logo-pic">
-                <img src="./img/icons/logo.svg" id="logo" alt="logo_quimica_facil">
-                <p>QFacil</p>
-            </picture>
-    </header>
-    <form action="" method="post">
-        <section class="f-r">
-            <h2 class="t-r">
-                Ingrese tus datos
-            </h2>
-            <picture class="sec-fperfil">
-                <div>
-                    <input type="file" name="" id="">
-                </div>
-            </picture>
-            <div class="sec-una">
-                <label>
-                    <p>
-                        Usuario
-                    </p>
-                    <input type="text" name="" id="" class="ri-usuario" required>
-                </label>
-                <label>
-                </label>
-                <p>
-                    Nombres
-                </p>
-                <input type="text" name="" id="" class="ri-nombres" required>
-                <label>
-                    <p>
-                        Apellidos
-                    </p>
-                    <input type="text" name="" id="" class="ri-apellidos" required>
-                </label>
-            </div>
-            <div class="sec-tipo">
-                <h3 class="tipo">
-                    Tipo de usuario:
-                </h3>
-                <label>
-                    <input type="radio" name="tipo-u" id="r-a" value="alumno">
-                    Alumno
-                </label>
-                <label>
-                    <input type="radio" name="tipo-u" id="r-e" value="estudiante">
-                    Profesor
-                </label>
-                <label>
-                    <input type="radio" name="tipo-u" id="r-auto" value="auto-didacta">
-                    Auto-didacta
-                </label>
-            </div>
-            <label class="sec-edad">
-                <p>
-                    Edad
-                </p>
-                <input type="number" name="" id="" class="r-edad" required>
-            </label>
-            <label class="sec-genero">
-                <p>
-                    Genero
-                </p>
-                <select label="Genero">
-                    <optgroup label="Genero">
-                        <option value="h">
-                            hombre
-                        </option>
-                        <option value="m">
-                            mujer
-                        </option>
-                        <option value="o">
-                            otro
-                        </option>
-                    </optgroup>
-                </select>
-            </label>
-            <div class="sec-cocon">
-            <label>
-                <p>
-                    Correo
-                </p>
-                <input type="email" name="correo" id="correo" class="r-correo" required>
-            </label>
-            <label>
-                <p>
-                    Contraseña
-                </p>
-                    <input type="password" name="contra" id="contra" class="r-contra" required>
-                </label>
-            </div>
-            <button type="submit" class="b-registar">
-                    Registrar
-            </button>
+    <div class="container-registro">
+        <section class="f-registro i-re">
+            <header class="header-baner">
+                <picture class="logo-pic">
+                    <img src="./img/icons/logo.svg" id="logo" alt="logo_quimica_facil">
+                    <p>QFacil</p>
+                </picture>
+            </header>
+            <form action="" method="post">
+                <section class="f-r">
+                    <h2 class="t-r">
+                        Ingrese tus datos
+                    </h2>
+                    <picture class="sec-fperfil">
+                        <div>
+                            <input type="file" name="" id="">
+                        </div>
+                    </picture>
+                    <div class="sec-una">
+                        <label>
+                            <p>
+                                Usuario
+                            </p>
+                            <input type="text" name="" id="" class="ri-usuario" required>
+                        </label>
+                        <label>
+                        </label>
+                        <p>
+                            Nombres
+                        </p>
+                        <input type="text" name="" id="" class="ri-nombres" required>
+                        <label>
+                            <p>
+                                Apellidos
+                            </p>
+                            <input type="text" name="" id="" class="ri-apellidos" required>
+                        </label>
+                    </div>
+                    <div class="sec-tipo">
+                        <h3 class="tipo">
+                            Tipo de usuario:
+                        </h3>
+                        <label>
+                            <input type="radio" name="tipo-u" id="r-a" value="alumno">
+                            Alumno
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo-u" id="r-e" value="estudiante">
+                            Profesor
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo-u" id="r-auto" value="auto-didacta">
+                            Auto-didacta
+                        </label>
+                    </div>
+                    <label class="sec-edad">
+                        <p>
+                            Edad
+                        </p>
+                        <input type="number" name="" id="" class="r-edad" required>
+                    </label>
+                    <label class="sec-genero">
+                        <p>
+                            Genero
+                        </p>
+                        <select label="Genero">
+                            <optgroup label="Genero">
+                                <option value="h">
+                                    hombre
+                                </option>
+                                <option value="m">
+                                    mujer
+                                </option>
+                                <option value="o">
+                                    otro
+                                </option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <div class="sec-cocon">
+                        <label>
+                            <p>
+                                Correo
+                            </p>
+                            <input type="email" name="correo" id="correo" class="r-correo" required>
+                        </label>
+                        <label>
+                            <p>
+                                Contraseña
+                            </p>
+                            <input type="password" name="contra" id="contra" class="r-contra" required>
+                        </label>
+                    </div>
+                    <button type="submit" class="b-registar">
+                        Registrar
+                    </button>
+                </section>
+            </form>
         </section>
-    </form>
-</section>
-<section class="banner-registro i-re">
-        <picture class="registro">
-            <img src="./img/registro-recorte.jpg" alt="cientificos" class="img-registro">
-        </picture>
-</section>
-</div>
+        <section class="banner-registro i-re">
+            <picture class="registro">
+                <img src="./img/registro-recorte.jpg" alt="cientificos" class="img-registro">
+            </picture>
+        </section>
+    </div>
 </body>
+
 </html>
