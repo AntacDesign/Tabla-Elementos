@@ -1,0 +1,53 @@
+.container-main
+{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+}
+.tabla
+{
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-self: center;
+    border: 1px solid red;
+    /* padding: 2em; */
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+.reglaHorizontal
+{
+    display: grid;
+    grid-template-columns: 1.3em repeat(18,5em);
+    grid-template-rows: 1.3em;
+    justify-items: center;
+    text-align: center;
+    border: 1px solid red;
+    background: whitesmoke;
+}
+.i-rh
+{
+    border: 1px solid red;
+    width: 100%;
+}
+.reglaVertical
+{
+    display: grid;
+    grid-template-rows: 1.3em repeat(7,5em) 2em repeat(2,5em);
+    grid-template-columns: 1.3em;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid red;
+    background: whitesmoke;
+    position: absolute;
+    height: 100%;
+}
+.i-rv
+{
+    border: 1px solid red;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
