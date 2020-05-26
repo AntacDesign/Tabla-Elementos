@@ -1,53 +1,182 @@
+/* Contenedor de general */
 .container-main
 {
     display: grid;
     grid-template-rows: min-content 1fr;
     height: 100vh;
 }
+/* Estilo de tabla */
+table
+{
+    border-collapse: collapse;
+}
+/* Tabla */
 .tabla
 {
     display: grid;
-    grid-template-rows: min-content min-content;
     justify-self: center;
     border: 1px solid red;
-    /* padding: 2em; */
     width: 80%;
     height: 100%;
-    position: relative;
 }
+/* reglas de la tabla */
+/* grupo */
 .reglaHorizontal
 {
-    display: grid;
-    grid-template-columns: 1.3em repeat(18,5em);
-    grid-template-rows: 1.3em;
-    justify-items: center;
-    text-align: center;
-    border: 1px solid red;
-    background: whitesmoke;
+     min-width: 5em;
+     max-width: 5em !important;
+    /*  border: 1px solid red; */
 }
-.i-rh
-{
-    border: 1px solid red;
-    width: 100%;
-}
+/* periodo */
 .reglaVertical
 {
-    display: grid;
-    grid-template-rows: 1.3em repeat(7,5em) 2em repeat(2,5em);
-    grid-template-columns: 1.3em;
-    align-items: center;
-    justify-items: center;
-    border: 1px solid red;
-    background: whitesmoke;
-    position: absolute;
-    height: 100%;
+    height: 5em;
+    min-width: 1.3em;
+    /* border: 1px solid red; */
+    text-align: center;
 }
-.i-rv
+
+/* Vista del elemento */
+.elemento
 {
-    border: 1px solid red;
-    display: flex;
+    background: orange;
     height: 100%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    border-radius: 1em;
 }
+.sec-vista
+{
+    padding: .5em;
+}
+/* Nombre de grupos */
+.groups
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.i-g
+{
+    /* border: 1px solid red; */
+}
+.i-g p
+{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.group-sec1,.group-sec2
+{
+    display: grid;
+    height: 100%;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+/* colores de los elementos */
+.noMetales
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.metalAlcalinos
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.metalAlcalinote
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.gasNoble
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.metaloide
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.halogenos
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.metalTransi
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.metalbloque
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.lantanidos
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+.actidos
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    background: red;
+    margin-right: .2em;
+}
+
+/* Botones de cada elemento */
+.btn-element
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    background: blueviolet;
+}
+
+
+
+
