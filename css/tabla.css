@@ -18,6 +18,7 @@ table
     border: 1px solid red;
     width: 80%;
     height: 100%;
+    /* overflow: scroll; */
 }
 /* reglas de la tabla */
 /* grupo */
@@ -39,15 +40,58 @@ table
 /* Vista del elemento */
 .elemento
 {
-    background: orange;
+    background: whitesmoke;
     height: 100%;
     width: 100%;
     border-radius: 1em;
+    position: relative;
+    display: grid;
+    font-weight: 900;
 }
 .sec-vista
 {
     padding: .5em;
 }
+/* Elementos de vista del elemento */
+.numeroAtomico-view
+{
+    position: absolute;
+    font-size: 150%;
+    top: .5em;
+    right: .6em;
+}
+.simboloElemento-view
+{
+    font-size: 500%;
+    text-align: center;
+    align-self: center;
+}
+.masInfo-elemento
+{
+    position:absolute;
+/*     border: 1px solid rebeccapurple; */
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 150%;
+    bottom: .6em;
+    left: 0;
+    right: 0;
+}
+.pesoAtomico
+{
+    display: block;
+    width: 100%;
+}
+.yearDescubrimiento
+{
+    display: block;
+    width: 100%;
+    /* position: absolute; */
+}
+
+
 /* Nombre de grupos */
 .groups
 {
@@ -77,96 +121,83 @@ table
 }
 
 /* colores de los elementos */
-.noMetales
+.cuadroColor
 {
     display: inline-block;
     width: 1em;
     height: 1em;
     border-radius: .2em;
-    background: red;
     margin-right: .2em;
+}
+.noMetales
+{
+    background: #8BC34A;
 }
 .metalAlcalinos
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #FF9800;
 }
 .metalAlcalinote
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #FFC107;
 }
 .gasNoble
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #04AAF5;
 }
 .metaloide
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #4DB6AC;
 }
 .halogenos
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #26C6DA;
 }
 .metalTransi
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #C68A8A;
 }
 .metalbloque
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #90A4AE;
 }
 .lantanidos
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #F69988;
 }
 .actidos
 {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: .2em;
-    background: red;
-    margin-right: .2em;
+    background: #B39DDB;
 }
+
+/* Numero atomicos  */
+.numeroAtomico
+{
+    font-size: 110%;
+    position: absolute;
+    top: .5em;
+    right: .6em;
+}
+.simboloElemento
+{
+    font-size: 250%;
+}
+
+.numeroAtomico-cs
+{
+    font-size: 110%;
+    position: absolute;
+    top: .5em;
+    right: 0;
+    left: 0;
+}
+.simboloElemento-cs
+{
+    align-self: flex-end;
+    font-size: 170%;
+    margin-bottom: .2em;
+}
+
 
 /* Botones de cada elemento */
 .btn-element
@@ -174,7 +205,20 @@ table
     width: 100%;
     height: 100%;
     border-radius: 1em;
-    background: blueviolet;
+    padding: .5em;
+    border: none;
+    font-weight: 800;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* Boton seleccionado */
+.seleccionado
+{
+    box-shadow: 0px 0px 15px #00000075;
+    border: 2px solid black;
+    filter: contrast(2);
 }
 
 
