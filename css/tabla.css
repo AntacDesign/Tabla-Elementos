@@ -4,6 +4,7 @@
     display: grid;
     grid-template-rows: min-content 1fr;
     height: 100vh;
+/*     width: 100vw; */
 }
 /* Estilo de tabla */
 table
@@ -16,9 +17,12 @@ table
     display: grid;
     justify-self: center;
     border: 1px solid red;
-    width: 80%;
+    min-width: fit-content;
+    max-width: 80vw;
+    width: 100%;
     height: 100%;
-    /* overflow: scroll; */
+    overflow: auto;
+    justify-content: center;
 }
 /* reglas de la tabla */
 /* grupo */
@@ -41,6 +45,7 @@ table
 .elemento
 {
     background: whitesmoke;
+    min-height: 15em;
     height: 100%;
     width: 100%;
     border-radius: 1em;
@@ -202,8 +207,8 @@ table
 /* Botones de cada elemento */
 .btn-element
 {
-    width: 100%;
-    height: 100%;
+    width: 5.9em;
+    height: 5.9em;
     border-radius: 1em;
     padding: .5em;
     border: none;
