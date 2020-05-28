@@ -16,7 +16,7 @@ table
 {
     display: grid;
     justify-self: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-width: fit-content;
     max-width: 80vw;
     width: 100%;
@@ -62,39 +62,92 @@ table
 {
     position: absolute;
     font-size: 150%;
-    top: .5em;
-    right: .6em;
+    padding: .12em .2em;
+    inline-size: fit-content;
+    top: .3em;
+    right: .4em;
+    cursor: pointer;
 }
 .simboloElemento-view
 {
     font-size: 500%;
     text-align: center;
     align-self: center;
+    cursor: context-menu;
 }
 .masInfo-elemento
 {
     position:absolute;
-/*     border: 1px solid rebeccapurple; */
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
+    /* border: 1px solid rebeccapurple; */
+    justify-self: center;
     text-align: center;
     font-size: 150%;
     bottom: .6em;
-    left: 0;
-    right: 0;
 }
 .pesoAtomico
 {
     display: block;
-    width: 100%;
+    cursor: pointer;
+    padding: 0 .2em;
 }
 .yearDescubrimiento
 {
+    cursor: pointer;
     display: block;
-    width: 100%;
+    padding: 0 .2em;
     /* position: absolute; */
 }
+
+/* Animaciones de descipcion */ 
+.numeroAtomico-view:hover
+{
+    box-shadow: 0px 0px 1px 2px white;
+    border-radius:  50%;
+}
+.numeroAtomico-view:hover::before
+{
+    content: "Número atómico";
+    position: absolute;
+    font-size: 16px;
+    top: -.1em;
+    left: -4.5em;
+    color: white;
+}
+/* Animaciones de peso atomico */ 
+.pesoAtomico:hover
+{
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: .5em;
+}
+.pesoAtomico:hover::before
+{
+    content: "Peso atómico";
+    width: fit-content;
+    text-align: right;
+    position: absolute;
+    font-size: 16px;
+    top: -.5em;
+    left: -110%;
+    color: white;
+}
+/* Animaciones de año */ 
+.yearDescubrimiento:hover
+{
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: .5em;
+}
+.yearDescubrimiento:hover::before
+{
+    content: "Año";
+    width: fit-content;
+    text-align: right;
+    position: absolute;
+    font-size: 16px;
+    bottom: 9%;
+    right: -48%;
+    color: white;
+}
+
 
 
 /* Nombre de grupos */
@@ -103,6 +156,7 @@ table
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 100%;
+    cursor: context-menu;
     /* border: 1px solid red; */
 }
 .i-g
@@ -217,6 +271,13 @@ table
     position: relative;
     align-items: flex-end;
     justify-content: center;
+}
+/* accion de pasar por un boton */
+.btn-element:hover
+{
+    box-shadow: 0px 0px 15px #00000075;
+    border: 2px solid black;
+    filter: contrast(1.5);
 }
 /* Boton seleccionado */
 .seleccionado
