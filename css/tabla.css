@@ -56,6 +56,7 @@ table
 .sec-vista
 {
     padding: .5em;
+    position: relative;
 }
 /* Elementos de vista del elemento */
 .numeroAtomico-view
@@ -72,8 +73,11 @@ table
 {
     font-size: 500%;
     text-align: center;
-    align-self: center;
     cursor: context-menu;
+    position: absolute;
+    top: .6em;
+    right: 0;
+    left: 0;
 }
 .masInfo-elemento
 {
@@ -83,6 +87,18 @@ table
     text-align: center;
     font-size: 150%;
     bottom: .6em;
+}
+.nameElement
+{   
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    justify-self: center;
+    top: 
+    55%;
+    display: block;
+    cursor: pointer;
+    padding: 0 .2em;
 }
 .pesoAtomico
 {
