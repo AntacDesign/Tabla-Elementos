@@ -190,43 +190,43 @@ table
 }
 .noMetales
 {
-    background: #8BC34A;
+    background: #8BC34A !important;
 }
 .metalAlcalinos
 {
-    background: #FF9800;
+    background: #FF9800 !important;
 }
 .metalAlcalinote
 {
-    background: #FFC107;
+    background: #FFC107 !important;
 }
 .gasNoble
 {
-    background: #04AAF5;
+    background: #04AAF5 !important;
 }
 .metaloide
 {
-    background: #4DB6AC;
+    background: #4DB6AC !important;
 }
 .halogenos
 {
-    background: #26C6DA;
+    background: #26C6DA !important;
 }
 .metalTransi
 {
-    background: #C68A8A;
+    background: #C68A8A !important;
 }
 .metalbloque
 {
-    background: #90A4AE;
+    background: #90A4AE !important;
 }
 .lantanidos
 {
-    background: #F69988;
+    background: #F69988 !important;
 }
 .actidos
 {
-    background: #B39DDB;
+    background: #B39DDB !important;
 }
 
 /* Numero atomicos  */
@@ -286,7 +286,16 @@ table
     border: 2px solid black;
     filter: contrast(2);
 }
-
+/* Grupo que al que pertenece */
+.grupo-seleccionado::after
+ {
+     content: "";
+     background: rgba(0, 0, 0, 0.418);
+     border-radius: 1em;
+     position: absolute;
+     right: 0;
+     left: 0;
+ }
 
 
 
