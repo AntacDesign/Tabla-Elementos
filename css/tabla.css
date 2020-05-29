@@ -287,14 +287,20 @@ table
     filter: contrast(2);
 }
 /* Grupo que al que pertenece */
+.i-g > p
+{
+    position: relative;
+}
 .grupo-seleccionado::after
  {
      content: "";
-     background: rgba(0, 0, 0, 0.418);
+     display: block;
+     width: 100%;
+     height:100%;
+     background: rgba(0, 0, 0, 0.15);
      border-radius: 1em;
      position: absolute;
-     right: 0;
-     left: 0;
+     left: -.5em;
  }
 
 
