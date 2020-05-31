@@ -49,6 +49,13 @@ table
     height: 100%;
     width: 100%;
     border-radius: 1em;
+}
+#infoElemento
+{
+    min-height: 15em;
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
     position: relative;
     display: grid;
     font-weight: 900;
