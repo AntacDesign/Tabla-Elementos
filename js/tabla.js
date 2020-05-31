@@ -40,11 +40,37 @@ function rmVista() {
     vista.remove("elemento");
 }
 
+/* Funcion para remover rela grupo seleccionado */
+function rmRuleGrupo() {
+    const select = document.querySelectorAll(".reglaVertical");
+    if (select.length >= 1) {
+        for (let i = 0; i < select.length; i++) {
+            select[i].classList.remove("reglaSelect");
+        }
+    }
+}
+/* Funcion para remover rela periodo seleccionado */
+function rmRulePeriodo() {
+    const select = document.querySelectorAll(".reglaHorizontal");
+    if (select.length >= 1) {
+        for (let i = 0; i < select.length; i++) {
+            select[i].classList.remove("reglaSelect");
+        }
+    }
+}
+/* Funcion para quitar la seleccion de periodo y grupo */
+function rmRule()
+{
+    rmRuleGrupo();
+    rmRulePeriodo();
+}
+
 /* juntando las funciones de quitar */
 function eliminarAnterior() {
     rmSelect();
     rmElemet();
     rmGrupo();
+    rmRule();
 }
 
 /* Funcion para filtar el elemento */
@@ -126,6 +152,7 @@ const seleccionado = function (evento) {
                 {
                     const n = value.id;
                     console.log(n);
+                    document.getElementById(n).classList.add("reglaSelect");
                 }
             }
             /* Marca los periodos */
@@ -135,6 +162,7 @@ const seleccionado = function (evento) {
                 {
                     const n = value.id;
                     console.log(n);
+                    document.getElementById(n).classList.add("reglaSelect");
                 }
             }
         }

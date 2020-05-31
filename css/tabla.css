@@ -82,7 +82,7 @@ table
     text-align: center;
     cursor: context-menu;
     position: absolute;
-    top: .6em;
+    top: .48em;
     right: 0;
     left: 0;
 }
@@ -109,15 +109,20 @@ table
 }
 .pesoAtomico
 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     padding: 0 .2em;
 }
 .yearDescubrimiento
 {
     cursor: pointer;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 .2em;
+    position: relative;
     /* position: absolute; */
 }
 
@@ -141,37 +146,32 @@ table
 {
     box-shadow: 0px 0px 0px 2px white;
     border-radius: .5em;
+    background: rgba(0, 0, 0, 0.459);
 }
 .pesoAtomico:hover::before
 {
     content: "Peso atómico";
     width: fit-content;
-    text-align: right;
     position: absolute;
     font-size: 16px;
-    top: -.5em;
-    left: -110%;
     color: white;
+    line-height: .9em;
 }
 /* Animaciones de año */ 
 .yearDescubrimiento:hover
 {
     box-shadow: 0px 0px 0px 2px white;
     border-radius: .5em;
+    background: rgba(0, 0, 0, 0.459);
 }
 .yearDescubrimiento:hover::before
 {
     content: "Año";
     width: fit-content;
-    text-align: right;
     position: absolute;
     font-size: 16px;
-    bottom: 9%;
-    right: -48%;
     color: white;
 }
-
-
 
 /* Nombre de grupos */
 .groups
@@ -326,5 +326,11 @@ table
      left: -.5em;
  }
 
+/* Seccion de reglas */
+.reglaSelect
+{
+    background: #00000024;
+    border-radius: 1em;
+}
 
 
