@@ -113,6 +113,30 @@ const seleccionado = function (evento) {
                     </span>
                 </div>
             `;
+
+            /* Obteniendo Grupos y periodos */
+            let nperiodo = document.querySelectorAll(".reglaHorizontal");
+            let ngrupo = document.querySelectorAll(".reglaVertical");
+            /* console.log(ngrupo[6].innerText); */
+
+            /* Marca los grupos */
+            for (let value of ngrupo)
+            {
+                if(value.innerText == obElement.grupo)
+                {
+                    const n = value.id;
+                    console.log(n);
+                }
+            }
+            /* Marca los periodos */
+            for (let value of nperiodo)
+            {
+                if(value.innerText == obElement.periodo)
+                {
+                    const n = value.id;
+                    console.log(n);
+                }
+            }
         }
     }
 
