@@ -4,7 +4,14 @@ const botones = document.querySelectorAll(".btn-element");
 /* Funcion para quitar informacion de la vista */
 function rmInfoView(){
     const infoElement = document.getElementById("infoElemento");
-    infoElement.innerHTML = '';
+    infoElement.innerHTML = `
+    <span class="indicacion">
+        Selecciona el elemento a mostrar
+        <span>
+            ( presiona d para limpiar)
+        </span> 
+    </span>
+    `;
 }
 
 /* Funcion para quitar seleccion */

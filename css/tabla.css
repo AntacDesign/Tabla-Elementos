@@ -333,4 +333,17 @@ table
     border-radius: 1em;
 }
 
-
+/* Indicaion inicial */
+.indicacion
+{
+    font-size: 2em;
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    align-self: center;
+}
+.indicacion > span
+{
+    display: block;
+     font-size: 16px;
+}
