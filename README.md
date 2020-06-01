@@ -1,5 +1,6 @@
 # Tabla-Elementos
 Página web interactiva con juegos, con el fin de aprender la tabla periódica.
+#### Link para visializar: https://antac69.github.io/Tabla-Elementos/main.html
 > ## Se uso:
 * HTML5 y CSS puro
 * JavaScript vanilla
