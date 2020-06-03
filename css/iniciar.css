@@ -35,7 +35,7 @@
 {
     display: grid;
     grid-template:"t-re t-re" min-content
-                  "sfoto-re i-re " min-content
+                  "i-re i-re " min-content
                   "tipo-re tipo-re" min-content
                   "edad-re  genero-re" min-content
                   "cocon-re  cocon-re" min-content
@@ -52,10 +52,11 @@
 {
     grid-area: t-re;
 }
-.sec-fperfil 
+/* .sec-fperfil 
 {
     grid-area: sfoto-re;
     position: relative;
+    display: none;
 }
 
 .sec-fperfil div
@@ -73,14 +74,14 @@
 {
     align-self: flex-end;
     width: 10em;
-}
+} */
 
 .sec-una 
 {
     grid-area: i-re;
-    justify-self: baseline;
+    /* justify-self: baseline; */
     /* border: 1px solid red; */
-    width: 7.6em;
+    width: 16em;
 }
 .sec-una label
 {

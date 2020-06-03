@@ -41,15 +41,16 @@
     left: 0;
     margin: 0 auto;
     text-align: center;
+    background-image: url("../img/icons/login.svg");
+    background-repeat: round;
 }
-.f-perfil input
+/* .f-perfil input
 {
     width: 10em;
-    /* height: 3em; */
     position: absolute;
     bottom: -5px;
     left: -25px;
-}
+} */
 
 /* borde de los formulario */
 .e-form
